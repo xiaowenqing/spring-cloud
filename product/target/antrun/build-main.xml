@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="D:\bbg\myapp">
+    <fileset dir="D:\bbg\SpringCloud-Vue\product\target">
+      <include name="*.jar"/>
+    </fileset>
+  </copy>
+</target>
+</project>
